@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="urn:oasis:names:tc:dita:rng:concept.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="urn:napsor:dita:rng:napsor-concept.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<concept id="concept_ilb_vbn_rt">
+  <title>Napsor Settings</title>
+  <shortdesc>Napsor is a great app for a good work-life balance. It helps you make sure that you
+    leave the office with a fresh mind, ready to enjoy your leisure time!</shortdesc>
+  <conbody>
+    <p>Napsor offers the following features:</p>
+    <dl>
+      <dlentry>
+        <dt>Snore Detector </dt>
+        <dd>Ask Napsor to wake you, in case your nap causes an unwanted level of accompanying noise that
+          your colleagues might hear. </dd>
+      </dlentry>
+      <dlentry>
+        <dt>Call-it-a-Day Alarm</dt>
+        <dd>Tell Napsor when you want to leave in the afternoon so that you do not miss your gym
+          appointment, weekly round of golf, or favorite TV show. </dd>
+      </dlentry>
+      <dlentry>
+        <dt>VIP E-Mail Alarm</dt>
+        <dd>Connect Napsor to your e-mail application and mark in your address book the people whose
+          e-mails you need to answer immediately.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Slumber Statistics </dt>
+        <dd>Capture statistics about the amount of resting time that you were able to get in a week and
+          how often your peaceful slumber was disturbed. </dd>
+      </dlentry>
+      <dlentry>
+        <dt>Heart-rate Monitor</dt>
+        <dd>Monitor your heart rate using any equipment that is supported by your smartphone. Analyze
+          this data together with your statistics to find out when you should go on
+          vacation.<!--Thank you Thomas for pointing out that this would be great combined with the Statistics function.--></dd>
+      </dlentry>
+    </dl>
+    <note type="tip">
+      Use our app to avoid burnout a long time before it can develop.</note>
+    <p>Hardware Add-Ons</p>
+    <draft-comment author="MaKe">Move Hardware Add-Ons to separate topic. </draft-comment>
+    <p>To make sure that you can spend your well-earned midday
+      rest without disturbance, we offer two great extensions: </p><dl>
+        <dlentry>
+          <dt>Motion Sensor with Approximation Alarm</dt>
+          <dd>Attach the optional motion sensor in a convenient place so that Napsor can inform you
+            when someone approaches. </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Door Opening Sensor with Approximation Alarm</dt>
+          <dd>Connect the optional door opening sensor to your office door so that Napsor can inform
+            you when your boss enters.</dd>
+        </dlentry>
+      </dl><p>More add-ons will follow soon!</p>
+  </conbody>
+</concept>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
+                         schematypens="http://relaxng.org/ns/structure/1.0"?>
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0" xmlns:dita="http://dita.oasis-open.org/architecture/2005/"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <moduleDesc xmlns="http://dita.oasis-open.org/architecture/2005/">
+<!--    change moduleTitle to Napsor DITA Concept Mod-->
+    <moduleTitle>DITA Concept</moduleTitle>
+    <headerComment xml:space="preserve"><![CDATA[
+=============================================================
+                   HEADER                                    
+=============================================================
+ <!--metadata in header already changed-->
+Source Version:
+Darwin Information Typing Architecture (DITA) Version 1.3
+OASIS Committee Specification 01
+21 August 2015 
+Copyright (c) OASIS Open 2015. All rights reserved. 
+Source: http://docs.oasis-open.org/dita/dita/v1.3/cs01/dita-v1.3-csprd01-part0-overview.html
+
+============================================================
+ MODULE:    Napsor DITA Concept Mod
+ VERSION:   1.0                                              
+ DATE:      November 2015                                    
+                                                             
+=============================================================
+
+=============================================================
+                   PUBLIC DOCUMENT TYPE DEFINITION           
+                   TYPICAL INVOCATION                        
+                                                             
+ Refer to this file by the following public identifier 
+      urn:napsor:dita:rng:napsor-conceptConstraintMod.rng
+
+=============================================================
+SYSTEM:     Darwin Information Typing Architecture (DITA) for Napsor    
+                                                             
+PURPOSE:    RNG Grammar to define custom content models 
+            for Napsor DITA Concepts             
+                     
+=============================================================
+]]></headerComment>
+    <moduleMetadata>
+      <moduleType>topic</moduleType>
+<!--      change moduleShortName to napsor-concept-c-->
+      <moduleShortName>concept</moduleShortName>
+      <modulePublicIds>
+<!--        remove everything except for rngMod, switch that to napsor URN-->
+        <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Concept//EN</dtdMod>
+        <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Concept//EN</dtdEnt>
+        <xsdMod>urn:oasis:names:tc:dita:xsd:conceptMod.xsd<var presep=":" name="ditaver"/></xsdMod>
+        <xsdGrp>urn:oasis:names:tc:dita:xsd:conceptGrp.xsd<var presep=":" name="ditaver"/></xsdGrp>
+        <rncMod>urn:oasis:names:tc:dita:rnc:conceptMod.rnc<var presep=":" name="ditaver"/></rncMod>
+        <rngMod>urn:oasis:names:tc:dita:rng:conceptMod.rng<var presep=":" name="ditaver"/></rngMod>
+<!--        <rngMod>urn:napsor:dita:rng:napsor-conceptConstraintMod.rng<var presep=":" name="ditaver"/></rngMod>-->
+      </modulePublicIds>
+      <!--      change domainsContribution to (topic concept napsor-concept-c)-->
+      <domainsContribution>(topic concept)</domainsContribution>
+    </moduleMetadata>
+  </moduleDesc>
+  
+<!--remove all defines-->
+  <div>
+    <a:documentation>TOPIC NESTING OVERRIDES</a:documentation>
+    
+    <define name="concept-info-types">
+      <ref name="info-types"/>
+    </define>
+    
+  </div>
+  <div>
+    <a:documentation>ELEMENT TYPE NAME PATTERNS</a:documentation>
+    <define name="concept">
+      <ref name="concept.element"/>
+    </define>
+    <define name="conbody">
+      <ref name="conbody.element"/>
+    </define>
+    <define name="conbodydiv">
+      <ref name="conbodydiv.element"/>
+    </define>
+    
+  </div>
+  <div>
+    <a:documentation>ELEMENT TYPE DECLARATIONS</a:documentation>
+    
+    <div>
+      <a:documentation> LONG NAME: Concept </a:documentation>
+      <define name="concept.content">
+        <ref name="title"/>
+        <optional>
+          <ref name="titlealts"/>
+        </optional>
+        <optional>
+          <choice>
+            <ref name="abstract"/>
+            <ref name="shortdesc"/>
+          </choice>
+        </optional>
+        <optional>
+          <ref name="prolog"/>
+        </optional>
+        <optional>
+          <ref name="conbody"/>
+        </optional>
+        <optional>
+          <ref name="related-links"/>
+        </optional>
+        <zeroOrMore>
+          <ref name="concept-info-types"/>
+        </zeroOrMore>
+      </define>
+      <define name="concept.attributes">
+        <attribute name="id">
+          <data type="ID"/>
+        </attribute>
+        <ref name="conref-atts"/>
+        <ref name="select-atts"/>
+        <ref name="localization-atts"/>
+        <optional>
+          <attribute name="outputclass"/>
+        </optional>
+      </define>
+      <define name="concept.element">
+        <element name="concept" dita:longName="Concept">
+          <a:documentation>The &lt;concept> element is the top-level element for a topic that answers the question what is? Concepts provide background information that users must know before they can
+            successfully work with a product or interface. Often, a concept is an extended definition of a major abstraction such as a process or function. It might also have an example or a graphic,
+            but generally the structure of a concept is fairly simple. Category: Concept elements</a:documentation>
+          <ref name="concept.attlist"/>
+          <ref name="concept.content"/>
+        </element>
+      </define>
+      <define name="concept.attlist" combine="interleave">
+        <ref name="concept.attributes"/>
+        <ref name="arch-atts"/>
+        <ref name="domains-att"/>
+      </define>
+      <define name="idElements" combine="choice">
+        <ref name="concept.element"/>
+      </define>
+    </div>
+    <div>
+      <a:documentation> LONG NAME: Concept Body </a:documentation>
+      <define name="conbody.content">
+        <zeroOrMore>
+          <ref name="body.cnt"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="section"/>
+            <ref name="example"/>
+            <ref name="conbodydiv"/>
+          </choice>
+        </zeroOrMore>
+      </define>
+      <define name="conbody.attributes">
+        <ref name="id-atts"/>
+        <ref name="localization-atts"/>
+        <optional>
+          <attribute name="base"/>
+        </optional>
+        <ref name="base-attribute-extensions"/>
+        <optional>
+          <attribute name="outputclass"/>
+        </optional>
+      </define>
+      <define name="conbody.element">
+        <element name="conbody" dita:longName="Concept Body">
+          <a:documentation>The &lt;conbody> element is the main body-level element for a concept. Like the &lt;body> element of a general &lt;topic>, &lt;conbody> allows paragraphs, lists, and other
+            elements as well as sections and examples. But &lt;conbody> has a constraint that a section or an example can be followed only by other sections or examples. Category: Concept
+            elements</a:documentation>
+          <ref name="conbody.attlist"/>
+          <ref name="conbody.content"/>
+        </element>
+      </define>
+      <define name="conbody.attlist" combine="interleave">
+        <ref name="conbody.attributes"/>
+      </define>
+      
+    </div>
+    <div>
+      <a:documentation> LONG NAME: Concept Body division </a:documentation>
+      <define name="conbodydiv.content">
+        <zeroOrMore>
+          <choice>
+            <ref name="example"/>
+            <ref name="section"/>
+          </choice>
+        </zeroOrMore>
+      </define>
+      <define name="conbodydiv.attributes">
+        <ref name="univ-atts"/>
+        <optional>
+          <attribute name="outputclass"/>
+        </optional>
+      </define>
+      <define name="conbodydiv.element">
+        <element name="conbodydiv" dita:longName="Concept Body division">
+          <a:documentation>The &lt;conbodydiv> element is similar to the &lt;bodydiv> element in that it provides an informal container for content that may be grouped within a concept. There are no
+            additional semantics attached to the conbodydiv element; it is purely a grouping element provided to help organize content.</a:documentation>
+          <ref name="conbodydiv.attlist"/>
+          <ref name="conbodydiv.content"/>
+        </element>
+      </define>
+      <define name="conbodydiv.attlist" combine="interleave">
+        <ref name="conbodydiv.attributes"/>
+      </define>
+      
+    </div>
+  </div>
+  <div>
+    <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
+    
+    <define name="concept.attlist" combine="interleave">
+      <ref name="global-atts"/>
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/topic concept/concept "/>
+      </optional>
+    </define>
+    <define name="conbody.attlist" combine="interleave">
+      <ref name="global-atts"/>
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/body  concept/conbody "/>
+      </optional>
+    </define>
+    <define name="conbodydiv.attlist" combine="interleave">
+      <ref name="global-atts"/>
+      <optional>
+        <attribute name="class" a:defaultValue="- topic/bodydiv concept/conbodydiv "/>
+      </optional>
+    </define>
+  </div>
+  
+<!--  add the following define-->
+<!--  <div>
+    <a:documentation>CONTENT MODEL OVERRIDES</a:documentation>
+    <include href="urn:oasis:names:tc:dita:rng:conceptMod.rng">
+      <define name="conbody.content">
+        <zeroOrMore>
+          <choice>
+            <ref name="basic.block"/>
+            <ref name="draft-comment"/>
+           </choice>
+        </zeroOrMore>
+      </define>
+    </include>
+      </div>-->
+    
+    
+</grammar>

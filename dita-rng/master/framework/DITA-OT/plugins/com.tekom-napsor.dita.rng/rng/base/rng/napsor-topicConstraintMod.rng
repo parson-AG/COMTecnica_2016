@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:oasis:names:tc:dita:rng:vocabularyModuleDesc.rng"
+                         schematypens="http://relaxng.org/ns/structure/1.0"?>
+<grammar xmlns:dita="http://dita.oasis-open.org/architecture/2005/"
+  xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" 
+  xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <moduleDesc xmlns="http://dita.oasis-open.org/architecture/2005/">
+    <moduleTitle>Napsor DITA Topic Constraint Module</moduleTitle>
+    <headerComment><![CDATA[
+=============================================================
+                   HEADER                                    
+=============================================================
+MODULE:    Napsor DITA Topic Elements
+ VERSION:   1.0                                              
+ DATE:      November 2015
+ 
+  SOURCE VERSION:
+   Darwin Information Typing Architecture (DITA) Version 1.3
+   OASIS Committee Specification 01
+   21 August 2015 
+   Copyright (c) OASIS Open 2015. All rights reserved. 
+   Source: http://docs.oasis-open.org/dita/dita/v1.3/cs01/dita-v1.3-csprd01-part0-overview.html
+ ============================================================
+ 
+=============================================================
+                   PUBLIC DOCUMENT TYPE DEFINITION           
+                   TYPICAL INVOCATION                        
+                                                             
+Refer to this file by the following identifier 
+urn:napsor:dita:rng:napsor-topicConstraintMod.rng
+
+=============================================================
+SYSTEM:     Darwin Information Typing Architecture (DITA)    
+                                                             
+PURPOSE:    Declaring the elements and specialization        
+            attributes for the base Topic type               
+                                                             
+=============================================================
+]]></headerComment>
+    <moduleMetadata>
+      <moduleType>topic</moduleType>
+      <moduleShortName>napsor-topic-c</moduleShortName>
+      <modulePublicIds>
+        <rngMod>urn:napsor:dita:rng:napsor-topicModConstraint.rng</rngMod>
+      </modulePublicIds>
+      <domainsContribution>(topic napsor-topic-c)</domainsContribution>
+    </moduleMetadata>
+  </moduleDesc>
+  <div>
+    <a:documentation>CONTENT MODEL OVERRIDES</a:documentation>
+    <include href="urn:napsor:dita:rng:napsor-commonElementsConstraintMod.rng">
+
+      <!--      add constraints here-->
+      
+    </include>
+      </div>
+</grammar>

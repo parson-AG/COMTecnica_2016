@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<!--DITA Base Map Shell-->
+
+   <group><!-- System ID (URL) catalog entries -->
+      <system systemId="urn:napsor:dita:rng:napsor-commonElementsConstraintMod.rng"
+              uri="rng/napsor-commonElementsConstraintMod.rng"/>
+           <system systemId="urn:napsor:dita:rng:napsor-topicConstraintMod.rng"
+                   uri="rng/napsor-topicConstraintMod.rng"/>
+           <system systemId="urn:napsor:dita:rng:napsor-highlightDomainConstraint.rng"
+                   uri="rng/napsor-highlightDomainConstraint.rng"/>
+   </group>
+   <group><!-- Public ID (URN) catalog entries -->
+           <uri name="urn:napsor:dita:rng:napsor-commonElementsConstraintMod.rng"
+                   uri="rng/napsor-commonElementsConstraintMod.rng"/>
+           <uri name="urn:napsor:dita:rng:napsor-topicConstraintMod.rng"
+                   uri="rng/napsor-topicConstraintMod.rng"/>
+           <uri name="napsor:dita:rng:napsor-highlightDomainConstraint.rng"
+                   uri="rng/napsor-highlightDomainConstraint.rng"/>
+   </group>
+</catalog>
