@@ -6,7 +6,7 @@ Best regards,
 Frank Ralf
 
 ## Prerequisites
-Please bring your laptop with a DITA-capable XML editor. I will do the workshop using oXygen 17. I will provide oXygen trial licenses for the participants of the workshop.
+Please bring your laptop with a DITA-capable XML editor. I will do the workshop using oXygen 17. I will provide [oXygen](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html) trial licenses for the participants of the workshop.
 
 
 ## Instructions 
