@@ -2,7 +2,7 @@
 
 Here you will find information and material for the ["Relax, Just Do It – DITA Customization with RELAX NG"](http://conferences.tekom.de/comtecnica/program/presentations/program/sv_1399_/) workshop on Thursday, 12 May 2016. This is still work in progress so stay tuned!
 
-Best regards,
+Best regards,  
 Frank Ralf
 
 ## Prerequisites
