@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="17.1">
+<project version="17.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="17.1" xml:space="preserve">
+            <serialized version="17.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>additional.frameworks.directories</String>
@@ -54,7 +54,7 @@
                                                     <field name="value">
                                                         <cssFile>
                                                             <field name="href">
-                                                                <String>${pdu}/framework/css/parson/style-parson.css</String>
+                                                                <String>${pdu}/framework/CSS/parson/style-parson.css</String>
                                                             </field>
                                                             <field name="title">
                                                                 <String>Parson CSS</String>
@@ -76,126 +76,7 @@
                                                         <String>templatesLocations</String>
                                                     </field>
                                                     <field name="index">
-                                                        <Integer>9</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>8</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>7</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>6</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>5</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
                                                         <Integer>4</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>3</Integer>
-                                                    </field>
-                                                    <field name="value">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="patchHandling">
-                                                        <String>removeIndex</String>
-                                                    </field>
-                                                    <field name="anchor">
-                                                        <null/>
-                                                    </field>
-                                                </poPatch>
-                                                <poPatch>
-                                                    <field name="fieldPath">
-                                                        <String>templatesLocations</String>
-                                                    </field>
-                                                    <field name="index">
-                                                        <Integer>2</Integer>
                                                     </field>
                                                     <field name="value">
                                                         <null/>
@@ -1615,7 +1496,7 @@
                                                         <String>/images/OrderedList24.png</String>
                                                     </field>
                                                     <field name="smallIconPath">
-                                                        <String>/images/OrderedList16.png</String>
+                                                        <String>/images/OrderedList16.gif</String>
                                                     </field>
                                                     <field name="accessKey">
                                                         <String></String>
@@ -1825,7 +1706,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -1841,7 +1722,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -1861,7 +1742,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -1881,7 +1762,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -1901,7 +1782,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -2891,7 +2772,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -2902,7 +2783,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                                     <serializableOrderedMap/>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -3325,13 +3206,13 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                 </action>
                                                 <action>
                                                     <field name="id">
-                                                        <String>reuse.content</String>
+                                                        <String>insert.conref</String>
                                                     </field>
                                                     <field name="name">
-                                                        <String>${i18n(reuse.content)}</String>
+                                                        <String>${i18n(insert.conref)}</String>
                                                     </field>
                                                     <field name="description">
-                                                        <String>${i18n(reuse.content_description)}</String>
+                                                        <String>${i18n(insert.conref_description)}</String>
                                                     </field>
                                                     <field name="largeIconPath">
                                                         <String>/images/Conref24.png</String>
@@ -3472,7 +3353,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>ancestor-or-self::*[@conref] | ancestor-or-self::*[@conkeyref] | oxy:current-selected-element()[ancestor-or-self::*][@conref] | oxy:current-selected-element()[ancestor-or-self::*][@conkeyref]</String>
+                                                                    <String>true()</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -3484,7 +3365,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         </actionMode-array>
                                                     </field>
                                                     <field name="enabledInReadOnlyContext">
-                                                        <Boolean>true</Boolean>
+                                                        <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
                                                 <action>
@@ -3595,114 +3476,13 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>self::*[contains(@class," math-d/math ")]</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">&lt;/mml:math></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String>oxy:allows-child-element("*", "class", " math-d/equation ")</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;equation>&lt;math type="presentation">&lt;mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">&lt;/mml:math>&lt;/math>&lt;/equation></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String>oxy:allows-child-element("*", "class", " mathml-d/mathml ")</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;mathml>&lt;m:math xmlns:m="http://www.w3.org/1998/Math/MathML">&lt;/m:math>&lt;/mathml></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String>ancestor-or-self::*[contains(@class," topic/p ")] and oxy:allows-child-element("*", "class", " equation-d/equation-inline ")</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;equation-inline>&lt;mathml>&lt;m:math xmlns:m="http://www.w3.org/1998/Math/MathML">&lt;/m:math>&lt;/mathml>&lt;/equation-inline></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String>oxy:allows-child-element("*", "class", " equation-d/equation-block ")</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;equation-block>&lt;mathml>&lt;m:math xmlns:m="http://www.w3.org/1998/Math/MathML">&lt;/m:math>&lt;/mathml>&lt;/equation-block></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String>oxy:allows-child-element("{http://www.w3.org/1998/Math/MathML}math")</String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;m:math xmlns:m="http://www.w3.org/1998/Math/MathML">&lt;/m:math></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
                                                                     <String></String>
                                                                 </field>
                                                                 <field name="argValues">
-                                                                    <serializableOrderedMap>
-                                                                        <entry>
-                                                                            <String>fragment</String>
-                                                                            <String>&lt;mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">&lt;/mml:math></String>
-                                                                        </entry>
-                                                                    </serializableOrderedMap>
+                                                                    <serializableOrderedMap/>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.operations.InsertEquationOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.InsertEquationOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -3819,7 +3599,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String>ancestor-or-self::*[@conref] | ancestor-or-self::*[@conkeyref] | oxy:current-selected-element()[ancestor-or-self::*][@conref] | oxy:current-selected-element()[ancestor-or-self::*][@conkeyref]</String>
+                                                                    <String>true()</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -3831,7 +3611,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         </actionMode-array>
                                                     </field>
                                                     <field name="enabledInReadOnlyContext">
-                                                        <Boolean>true</Boolean>
+                                                        <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
                                                 <action>
@@ -3860,7 +3640,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         <actionMode-array>
                                                             <actionMode>
                                                                 <field name="xpathCondition">
-                                                                    <String></String>
+                                                                    <String>true()</String>
                                                                 </field>
                                                                 <field name="argValues">
                                                                     <serializableOrderedMap/>
@@ -3872,7 +3652,7 @@ oxy:allows-child-element("*", "class", " topic/simpletable ")</String>
                                                         </actionMode-array>
                                                     </field>
                                                     <field name="enabledInReadOnlyContext">
-                                                        <Boolean>true</Boolean>
+                                                        <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
                                                 <action>
@@ -4643,7 +4423,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -4659,7 +4439,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -4679,7 +4459,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -4699,7 +4479,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -4719,7 +4499,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleRowOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertRowOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -4773,7 +4553,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertSingleColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.commons.table.operations.cals.InsertColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                             <actionMode>
@@ -4789,7 +4569,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ")
                                                                     </serializableOrderedMap>
                                                                 </field>
                                                                 <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertSingleColumnOperation</String>
+                                                                    <String>ro.sync.ecss.extensions.dita.topic.table.simpletable.InsertColumnOperation</String>
                                                                 </field>
                                                             </actionMode>
                                                         </actionMode-array>
@@ -5266,47 +5046,6 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                         <Boolean>false</Boolean>
                                                     </field>
                                                 </action>
-                                                <action>
-                                                    <field name="id">
-                                                        <String>push.element</String>
-                                                    </field>
-                                                    <field name="name">
-                                                        <String>${i18n(push.element)}</String>
-                                                    </field>
-                                                    <field name="description">
-                                                        <String>${i18n(push.element_description)}</String>
-                                                    </field>
-                                                    <field name="largeIconPath">
-                                                        <String></String>
-                                                    </field>
-                                                    <field name="smallIconPath">
-                                                        <String></String>
-                                                    </field>
-                                                    <field name="accessKey">
-                                                        <String></String>
-                                                    </field>
-                                                    <field name="accelerator">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="actionModes">
-                                                        <actionMode-array>
-                                                            <actionMode>
-                                                                <field name="xpathCondition">
-                                                                    <String></String>
-                                                                </field>
-                                                                <field name="argValues">
-                                                                    <serializableOrderedMap/>
-                                                                </field>
-                                                                <field name="operationID">
-                                                                    <String>ro.sync.ecss.extensions.dita.conref.PushElementOperation</String>
-                                                                </field>
-                                                            </actionMode>
-                                                        </actionMode-array>
-                                                    </field>
-                                                    <field name="enabledInReadOnlyContext">
-                                                        <Boolean>false</Boolean>
-                                                    </field>
-                                                </action>
                                             </action-array>
                                         </field>
                                         <field name="menubarDescriptor">
@@ -5324,12 +5063,12 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                     <menuEntry-array>
                                                         <menuItem>
                                                             <field name="actionID">
-                                                                <String>reuse.content</String>
+                                                                <String>insert.conref</String>
                                                             </field>
                                                         </menuItem>
                                                         <menuItem>
                                                             <field name="actionID">
-                                                                <String>push.element</String>
+                                                                <String>insert.conkeyref</String>
                                                             </field>
                                                         </menuItem>
                                                         <menuSeparator/>
@@ -5496,6 +5235,11 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                                     <menuItem>
                                                                         <field name="actionID">
                                                                             <String>insert.cross.reference</String>
+                                                                        </field>
+                                                                    </menuItem>
+                                                                    <menuItem>
+                                                                        <field name="actionID">
+                                                                            <String>insert.key.reference</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuItem>
@@ -5929,6 +5673,11 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                                     </menuItem>
                                                                     <menuItem>
                                                                         <field name="actionID">
+                                                                            <String>insert.key.reference</String>
+                                                                        </field>
+                                                                    </menuItem>
+                                                                    <menuItem>
+                                                                        <field name="actionID">
                                                                             <String>insert.file.reference</String>
                                                                         </field>
                                                                     </menuItem>
@@ -5981,12 +5730,12 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                                 <menuEntry-array>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>reuse.content</String>
+                                                                            <String>insert.conref</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuItem>
                                                                         <field name="actionID">
-                                                                            <String>push.element</String>
+                                                                            <String>insert.conkeyref</String>
                                                                         </field>
                                                                     </menuItem>
                                                                     <menuSeparator/>
@@ -6109,6 +5858,11 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                                     </toolbarItem>
                                                                     <toolbarItem>
                                                                         <field name="actionID">
+                                                                            <String>insert.key.reference</String>
+                                                                        </field>
+                                                                    </toolbarItem>
+                                                                    <toolbarItem>
+                                                                        <field name="actionID">
                                                                             <String>insert.file.reference</String>
                                                                         </field>
                                                                     </toolbarItem>
@@ -6192,7 +5946,12 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                                         <toolbarSeparator/>
                                                         <toolbarItem>
                                                             <field name="actionID">
-                                                                <String>reuse.content</String>
+                                                                <String>insert.conref</String>
+                                                            </field>
+                                                        </toolbarItem>
+                                                        <toolbarItem>
+                                                            <field name="actionID">
+                                                                <String>insert.conkeyref</String>
                                                             </field>
                                                         </toolbarItem>
                                                         <toolbarSeparator/>
@@ -6474,16 +6233,11 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                 </field>
                                 <field name="templatesLocations">
                                     <String-array>
-                                        <String>${configured.ditaot.dir}/plugins/*/template_folders/*</String>
                                         <String>${frameworkDir}/templates/topic</String>
                                         <String>${frameworkDir}/templates/topic-xsd</String>
+                                        <String>${frameworkDir}/templates/d4p/topic (Dita 4 Publishers)</String>
+                                        <String>${frameworkDir}/templates/topic-rng</String>
                                         <String>${frameworkDir}/templates/plugin</String>
-                                        <String>${configured.ditaot.dir}/plugins/org.dita-ng.doctypes/oxygen_templates/topic-rng</String>
-                                        <String>${configured.ditaot.dir}/plugins/net.sourceforge.dita4publishers.doctypes/oxygen_templates/topic (Dita 4 Publishers)</String>
-                                        <String>${configured.ditaot.dir}/plugins/org.oasis-open.dita.dita13.doctypes/oxygen_templates/DITA 1.3 (experimental)</String>
-                                        <String>${configured.ditaot.dir}/oxygen_templates/DITA 1.3 (experimental)</String>
-                                        <String>${configured.ditaot.dir}/plugins/mathml/oxygen_templates/MathML</String>
-                                        <String>${configured.ditaot.dir}/plugins/org.oasis.lwdita/oxygen_templates/LW (Lightweight) DITA</String>
                                     </String-array>
                                 </field>
                                 <field name="xmlCatalogs">

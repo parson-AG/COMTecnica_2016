@@ -6,6 +6,7 @@
   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
  
  <moduleDesc xmlns="http://dita.oasis-open.org/architecture/2005/">
+<!--  add meaningful moduleTitle-->
   <moduleTitle>Napsor DITA Specialization Module</moduleTitle>
   <headerComment><![CDATA[
 =============================================================
@@ -41,64 +42,67 @@ PURPOSE:    Declaring the element domain specialization for the thankyou element
  ]]></headerComment>
   <moduleMetadata>
    <moduleType>base</moduleType>
-   <moduleShortName>napsor-thankyou-d</moduleShortName>
+<!--   add moduleShortName for napsor thankyou domain-->
+<!--   <moduleShortName>napsor-thankyou-d</moduleShortName>-->
    <modulePublicIds>
-    <rngMod>urn:napsor:dita:rng:napsor-thankyouDomain.rng</rngMod>
+<!--    add rngMod element with napsor URN-->
+<!--    <rngMod>urn:napsor:dita:rng:napsor-thankyouDomain.rng</rngMod>-->
    </modulePublicIds>
-   <domainsContribution>(topic napsor-thankyou-d)</domainsContribution>
+<!--   add domains contribution element for thankyou domain-->
+<!--   <domainsContribution>(topic napsor-thankyou-d)</domainsContribution>-->
   </moduleMetadata>
  </moduleDesc>
  
  <div>
   <a:documentation>DOMAIN EXTENSION PATTERNS</a:documentation>
- <define name="thankyou-d-ph">
+ <!--<define name="thankyou-d-ph">
    <ref name="thankyou.element"/>  
- </define>
+ </define>-->
   
-  <define name="ph" combine="choice">
+  <!--<define name="ph" combine="choice">
    <ref name="thankyou-d-ph"/>
-  </define>
+  </define>-->
  </div>
  
  <div>
   <a:documentation>ELEMENT TYPE NAME PATTERNS</a:documentation>
 
-  <define name="thankyou">
+  <!--<define name="thankyou">
    <ref name="thankyou.element"/>
   </define>
+  -->
  
- 
-  <define name="thankyou.element">
+  <!--<define name="thankyou.element">
    <element name="thankyou" dita:longName="Thank you">
     <ref name="thankyou.attlist"/>
     <ref name="thankyou.content"/>
    </element>
-  </define>
+  </define>-->
  
-  <define name="thankyou.content">
+  <!--<define name="thankyou.content">
    <text/>
-  </define>
+  </define>-->
   
-  <define name="thankyou.attlist" combine="interleave">
+  <!--<define name="thankyou.attlist" combine="interleave">
    <ref name="thankyou.attributes"/>
-  </define>
+  </define>-->
   
-  <define name="thankyou.attributes">
+  <!--<define name="thankyou.attributes">
    <ref name="univ-atts"/>
    <optional>
     <attribute name="outputclass"/>
    </optional>
-  </define>
+  </define>-->
   </div>
     
    <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
-    <define name="thankyou.attlist" combine="interleave">
+    <!--<define name="thankyou.attlist" combine="interleave">
      <ref name="global-atts"/>
      <optional>
       <attribute name="class" a:defaultValue="+ topic/ph thankyou-d/thankyou "/>
      </optional>
-    </define>
+    </define>-->
    </div> 
  
 </grammar>

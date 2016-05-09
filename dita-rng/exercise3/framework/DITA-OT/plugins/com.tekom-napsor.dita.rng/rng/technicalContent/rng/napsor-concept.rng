@@ -116,9 +116,9 @@ PURPOSE:    RNG Grammar to describe Napsor DITA Concepts
 		<include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng" />
 		<include href="urn:oasis:names:tc:dita:rng:xmlDomain.rng" />
 <!--	  Add a div for specialization modules with include of thankyouDomain file-->
-<!--	  <div><a:documentation>SPECIALIZATION DOMAIN MODULES</a:documentation>-->
-<!--	  <include href="napsor-thankyouDomain.rng"/>-->
-<!--	</div>-->
+	  <div><a:documentation>SPECIALIZATION DOMAIN MODULES</a:documentation>
+	  <include href="napsor-thankyouDomain.rng"/>
+	</div>
 	</div>
   
   <div>
