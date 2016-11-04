@@ -1,0 +1,33 @@
+Hi Frank,
+
+Please find below a 20-user license compatible with oXygen XML Editor Enterprise which we are happy to offer.
+Even if it is a v18 license, this is also compatible with version 17, so you should not worry about it. This way you could use it with any version.
+
+------START-LICENSE-KEY------
+
+Registration_Name=Relax, Just Do It \u2013 DITA Customization with RELAX NG
+
+Company=COMTecnica 2016
+
+Category=Enterprise
+
+Component=XML-Editor, XSLT-Debugger, Saxon-SA
+
+Version=18
+
+Number_of_Licenses=20
+
+Date=05-05-2016
+
+Trial=31
+
+SGN=MCwCFGcXUaCPmxefMuGN/EcU9aPCHVhnAhQeHBCOCU6TS7SimBjnv47kkOLp4w\=\=
+
+-------END-LICENSE-KEY-------
+
+I hope this helps and feel free to let us know whenever you might need any assistance or information.
+
+Best Regards,
+Costin
+
+Costin Săndoi
